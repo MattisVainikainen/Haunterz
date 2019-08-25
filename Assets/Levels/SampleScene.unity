@@ -1276,8 +1276,8 @@ MonoBehaviour:
     count: 2
     timeBetweenSpawns: 3
   - enemies:
-    - {fileID: 1873495907540299333, guid: 0b0c717e11c1aef479a25a71199cae3c, type: 3}
-    - {fileID: 1873495907540299333, guid: 0b0c717e11c1aef479a25a71199cae3c, type: 3}
+    - {fileID: 6280719580480589165, guid: 08011853b6c0c6c4e93b71a0f5858824, type: 3}
+    - {fileID: 6280719580480589165, guid: 08011853b6c0c6c4e93b71a0f5858824, type: 3}
     - {fileID: 1873495907540299333, guid: 0b0c717e11c1aef479a25a71199cae3c, type: 3}
     - {fileID: 1873495907540299333, guid: 0b0c717e11c1aef479a25a71199cae3c, type: 3}
     - {fileID: 1873495907540299333, guid: 0b0c717e11c1aef479a25a71199cae3c, type: 3}

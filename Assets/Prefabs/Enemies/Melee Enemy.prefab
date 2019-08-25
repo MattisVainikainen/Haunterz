@@ -525,9 +525,9 @@ MonoBehaviour:
   damage: 1
   pickupChance: 20
   pickups:
-  - {fileID: 2699800565628840904, guid: 00a94387db7dcc546ab947579e0d70c5, type: 3}
-  - {fileID: 2319931515553320295, guid: 1719a3de585456547aeb0f53c6f5fc3f, type: 3}
-  - {fileID: 938897668662475292, guid: 10b22a06300c7d84e874c04b885ff3de, type: 3}
+  - {fileID: 1207487612588608106, guid: b0378145ff7229443b379db8f5544b02, type: 3}
+  - {fileID: 1207487612588608106, guid: b0378145ff7229443b379db8f5544b02, type: 3}
+  - {fileID: 1207487612588608106, guid: b0378145ff7229443b379db8f5544b02, type: 3}
   stopDistance: 2
   attackSpeed: 2
 --- !u!1 &6303326280403559347

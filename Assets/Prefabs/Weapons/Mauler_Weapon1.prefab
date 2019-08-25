@@ -126,4 +126,4 @@ MonoBehaviour:
   projectile: {fileID: 8682086184161898641, guid: 8a0bb0c5be830ab48b67fb1f7e2ba264,
     type: 3}
   shotPoint: {fileID: 156902409876707372}
-  timeBtwShots: 0.1
+  timeBtwShots: 0.2

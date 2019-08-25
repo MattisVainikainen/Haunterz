@@ -439,7 +439,7 @@ MonoBehaviour:
   speed: 5
   timeBetweenAttacks: 2
   player: {fileID: 0}
-  damage: 5
+  damage: 3
   pickupChance: 10
   pickups:
   - {fileID: 2699800565628840904, guid: 00a94387db7dcc546ab947579e0d70c5, type: 3}
@@ -455,5 +455,5 @@ MonoBehaviour:
   enemyToSummon: {fileID: 6280719580480589165, guid: 08011853b6c0c6c4e93b71a0f5858824,
     type: 3}
   attackSpeed: 5
-  stopDistance: 4
+  stopDistance: 2
   attackTime: 2
