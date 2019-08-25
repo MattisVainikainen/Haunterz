@@ -1,0 +1,843 @@
+fileFormatVersion: 2
+guid: ecd2c949b4fbdef44974014c75fccd26
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4061930726552672069
+    second: heartshealth_0
+  - first:
+      213: -4300104318813946701
+    second: heartshealth_1
+  - first:
+      213: -9137099315824283194
+    second: heartshealth_2
+  - first:
+      213: -6009333611830020408
+    second: heartshealth_3
+  - first:
+      213: 787909627893134311
+    second: heartshealth_4
+  - first:
+      213: 5248189703009606153
+    second: heartshealth_5
+  - first:
+      213: 3394141356307879223
+    second: heartshealth_6
+  - first:
+      213: 7671493049259589937
+    second: heartshealth_7
+  - first:
+      213: 4060580513018036767
+    second: heartshealth_8
+  - first:
+      213: -6880083930946910007
+    second: heartshealth_9
+  - first:
+      213: 5816221462181718699
+    second: heartshealth_10
+  - first:
+      213: -7536753587564420152
+    second: heartshealth_11
+  - first:
+      213: -1997901061898069879
+    second: heartshealth_12
+  - first:
+      213: 4253283059147762796
+    second: heartshealth_13
+  - first:
+      213: 1456087485600790279
+    second: heartshealth_14
+  - first:
+      213: -3426048522598225678
+    second: heartshealth_15
+  - first:
+      213: 2657616577195230848
+    second: heartshealth_16
+  - first:
+      213: -3451873027348864898
+    second: heartshealth_17
+  - first:
+      213: 7490014125226820348
+    second: heartshealth_18
+  - first:
+      213: 7679597960626150586
+    second: heartshealth_19
+  - first:
+      213: -3970473817058020429
+    second: heartshealth_20
+  - first:
+      213: -5701403501307688983
+    second: heartshealth_21
+  - first:
+      213: -1595642075881242051
+    second: heartshealth_22
+  - first:
+      213: 5497660701338423565
+    second: heartshealth_23
+  - first:
+      213: 8224101646995037904
+    second: heartshealth_24
+  - first:
+      213: -31151247695247738
+    second: heartshealth_25
+  - first:
+      213: -3564081848090879563
+    second: heartshealth_26
+  - first:
+      213: -4463037594478283316
+    second: heartshealth_27
+  - first:
+      213: -2188103745097495786
+    second: heartshealth_28
+  - first:
+      213: 1740477096993684262
+    second: heartshealth_29
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: heartshealth_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 243
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f13b211fd42b2542b284cb03f27575a
+      internalID: -4061930726552672069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartshealth_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 243
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852ec409a8a69f54e8bde7d2b5692c0c
+      internalID: -4300104318813946701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartshealth_2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 243
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b092c42868acc841a1e07a1790577b3
+      internalID: -9137099315824283194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartshealth_3
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 241
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d4ff8987d32c34d9cc931f64b56403
+      internalID: -6009333611830020408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartshealth_4
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 241
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07b9649c9784a543b68c5fa7e382476
+      internalID: 787909627893134311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartshealth_5
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 198
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1465ca8f2fddb144b202fa68a036efb
+      internalID: 5248189703009606153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartshealth_6
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 198
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca704913dbc31d4f9db30fe0f5ed5c7
+      internalID: 3394141356307879223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartshealth_7
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 198
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e20a4089d4da749bcef98c25bd1026
+      internalID: 7671493049259589937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartshealth_8
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 198
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15409d97c4c979245a1259c535de6bc5
+      internalID: 4060580513018036767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartshealth_9
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 198
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34fe29dd5679c8c489369b751dbfd5da
+      internalID: -6880083930946910007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartshealth_10
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 154
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743a84ae4e21c2d48a5e5ed5bdae0e87
+      internalID: 5816221462181718699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartshealth_11
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 154
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c498147474427a34d9b93e5b85b9824b
+      internalID: -7536753587564420152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartshealth_12
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 154
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7782fa165f62048aa1481fee86c121
+      internalID: -1997901061898069879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartshealth_13
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 155
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff105f41382f4cf478838f5fe7ebadcc
+      internalID: 4253283059147762796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartshealth_14
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 155
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dfdd81f67abf104ab34830650377ef8
+      internalID: 1456087485600790279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartshealth_15
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 117
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94c63686176fe843a3e814c602982c8
+      internalID: -3426048522598225678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartshealth_16
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 117
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7669d6e035b6014c9a2137e7478edbf
+      internalID: 2657616577195230848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartshealth_17
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 117
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0889dc1c534ff42a151c8279a6d9ae
+      internalID: -3451873027348864898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartshealth_18
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 117
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac8b21f1c5a23142a42a9101df33fd9
+      internalID: 7490014125226820348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartshealth_19
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 117
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39413338c2502148a14dc11142593c3
+      internalID: 7679597960626150586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartshealth_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 80
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb05ffe4b7496ad47ae80146dae64615
+      internalID: -3970473817058020429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartshealth_21
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 80
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f019636cced19f44b95934b28f1aac93
+      internalID: -5701403501307688983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartshealth_22
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 80
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a816b0430829af5439089bcf42a6b42e
+      internalID: -1595642075881242051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartshealth_23
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 80
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a03c55e88001f4a946c1ed52f1b2e1
+      internalID: 5497660701338423565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartshealth_24
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 80
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ee249f289e0ae41aaf9011b7ac7a35
+      internalID: 8224101646995037904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartshealth_25
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 42
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5292b2001c12754d9025bcd4a998309
+      internalID: -31151247695247738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartshealth_26
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 42
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2daf7176ea24fd24889a03c664100793
+      internalID: -3564081848090879563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartshealth_27
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 42
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb2df0e505636446935fce2bcf8d61f
+      internalID: -4463037594478283316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartshealth_28
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 42
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4b0951a52e02b41a92d47600677941
+      internalID: -2188103745097495786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heartshealth_29
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 42
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4124003300c7c5a4f9fdc345021883ea
+      internalID: 1740477096993684262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a00aeecfcc24e0b4f9930e737e68af22
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
