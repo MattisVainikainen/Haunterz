@@ -17,6 +17,9 @@ public class Enemy : MonoBehaviour
     public int pickupChance;
     public GameObject[] pickups;
 
+    public int healthPickupChance;
+    public GameObject healthPickup;
+
     public virtual void Start() {
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
@@ -32,6 +35,14 @@ public class Enemy : MonoBehaviour
                 GameObject randomPickup = pickups[Random.Range(0, pickups.Length)];
                 Instantiate (randomPickup, transform.position, transform.rotation);
             }
+
+            int randHealth = Random.Range(0, 101);
+            if(randHealth < healthPickupChance)
+            {
+                Instantiate(healthPickup, transform.position, transform.rotation);
+            }
+
+
             Destroy(gameObject);
         }
     }

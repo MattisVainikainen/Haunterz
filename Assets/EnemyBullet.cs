@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnemyBullet : MonoBehaviour
 {
     private Player playerScript;
+    public GameObject explosionEffect;
 
     private Vector2 targetPosition;
     public float speed;
@@ -23,6 +24,8 @@ public class EnemyBullet : MonoBehaviour
         }
         else
         {
+            GameObject A = Instantiate(explosionEffect, transform.position, transform.rotation) as GameObject;
+            Destroy (A, 3f);
             Destroy(gameObject);
         }
     }
