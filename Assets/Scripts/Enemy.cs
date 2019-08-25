@@ -39,7 +39,8 @@ public class Enemy : MonoBehaviour
             int randHealth = Random.Range(0, 101);
             if(randHealth < healthPickupChance)
             {
-                Instantiate(healthPickup, transform.position, transform.rotation);
+                GameObject HP = Instantiate(healthPickup, transform.position, transform.rotation);
+                Destroy(HP, 5f);
             }
 
 
