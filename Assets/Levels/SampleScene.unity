@@ -120,6 +120,36 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &11470477
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 11470478}
+  m_Layer: 0
+  m_Name: Boss Spawn Point (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &11470478
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11470477}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.25, y: -3.14, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &125876142
 GameObject:
   m_ObjectHideFlags: 0
@@ -1268,22 +1298,8 @@ MonoBehaviour:
   - enemies:
     - {fileID: 6280719580480589165, guid: 08011853b6c0c6c4e93b71a0f5858824, type: 3}
     - {fileID: 1873495907540299333, guid: 0b0c717e11c1aef479a25a71199cae3c, type: 3}
-    - {fileID: 1048251445313541030, guid: 579803471ef0548478dfa737ef9a7be5, type: 3}
-    count: 10
+    count: 2
     timeBetweenSpawns: 2
-  - enemies:
-    - {fileID: 1873495907540299333, guid: 0b0c717e11c1aef479a25a71199cae3c, type: 3}
-    - {fileID: 8524471630178188371, guid: 6ab0e522fcea1f24b8a8da7e3a166405, type: 3}
-    count: 2
-    timeBetweenSpawns: 3
-  - enemies:
-    - {fileID: 6280719580480589165, guid: 08011853b6c0c6c4e93b71a0f5858824, type: 3}
-    - {fileID: 6280719580480589165, guid: 08011853b6c0c6c4e93b71a0f5858824, type: 3}
-    - {fileID: 1873495907540299333, guid: 0b0c717e11c1aef479a25a71199cae3c, type: 3}
-    - {fileID: 1873495907540299333, guid: 0b0c717e11c1aef479a25a71199cae3c, type: 3}
-    - {fileID: 1873495907540299333, guid: 0b0c717e11c1aef479a25a71199cae3c, type: 3}
-    count: 2
-    timeBetweenSpawns: 0.2
   spawnPoints:
   - {fileID: 1086954521}
   - {fileID: 764611144}
@@ -1302,6 +1318,8 @@ MonoBehaviour:
   - {fileID: 652019717}
   - {fileID: 429161400}
   timeBetweenWaves: 3
+  boss: {fileID: 6392003226676759075, guid: 2a079e476fc834744bfdcc7f6a6460b9, type: 3}
+  bossSpawnPoint: {fileID: 11470478}
 --- !u!4 &1443740193
 Transform:
   m_ObjectHideFlags: 0
