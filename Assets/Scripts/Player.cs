@@ -16,6 +16,8 @@ public class Player : MonoBehaviour
     public Sprite fullHeart;
     public Sprite emptyHeart;
 
+    public Animator hurtPanel;
+
     private void Start() 
     {
         myRb = GetComponent<Rigidbody2D>();
@@ -46,6 +48,7 @@ public class Player : MonoBehaviour
     {
         health -= damageAmount;
         UpdateHealthUI(health);
+        hurtPanel.SetTrigger("hurt");
         if (health <= 0)
         {
             Destroy(gameObject);
