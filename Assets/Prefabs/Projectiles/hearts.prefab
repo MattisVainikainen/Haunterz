@@ -124,6 +124,8 @@ MonoBehaviour:
   lifeTime: 2
   explosion: {fileID: 4835298797161914699, guid: 19f151d293034d34cb702899e6806c4e,
     type: 3}
+  soundObject: {fileID: 4379681002165778027, guid: 734898942104d8844b890598c09d438b,
+    type: 3}
   damage: 1
 --- !u!95 &1015425888513491888
 Animator:
