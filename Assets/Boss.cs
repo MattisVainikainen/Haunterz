@@ -14,6 +14,7 @@ public class Boss : MonoBehaviour
     private Animator anim;
 
     private Slider healthBar;
+    public GameObject deathEffect;
 
     private void Start() {
         halfHealth = health / 2;
@@ -29,6 +30,7 @@ public class Boss : MonoBehaviour
         healthBar.value = health;
         if (health <= 0)
         {
+            Instantiate(deathEffect, transform.position, transform.rotation);
             Destroy(gameObject);
             healthBar.gameObject.SetActive(false);
         }

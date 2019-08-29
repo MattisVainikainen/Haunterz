@@ -531,6 +531,8 @@ MonoBehaviour:
   healthPickupChance: 50
   healthPickup: {fileID: 1207487612588608106, guid: b0378145ff7229443b379db8f5544b02,
     type: 3}
+  deathSound: {fileID: 2731362621611388024, guid: 41bbc11bdb0943243bb98dc5aa3b23bf,
+    type: 3}
   stopDistance: 2
   attackSpeed: 2
 --- !u!1 &6303326280403559347

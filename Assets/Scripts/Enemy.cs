@@ -20,6 +20,8 @@ public class Enemy : MonoBehaviour
     public int healthPickupChance;
     public GameObject healthPickup;
 
+    public GameObject deathSound;
+
     public virtual void Start() {
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
@@ -29,6 +31,7 @@ public class Enemy : MonoBehaviour
         health -= damageAmount;
         if(health <= 0)
         {
+            
             int randonNumber = Random.Range(0, 101);
             if(randonNumber < pickupChance)
             {
@@ -43,7 +46,7 @@ public class Enemy : MonoBehaviour
                 Destroy(HP, 5f);
             }
 
-
+            Instantiate(deathSound, transform.position, transform.rotation);
             Destroy(gameObject);
         }
     }

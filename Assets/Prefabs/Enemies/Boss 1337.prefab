@@ -77,6 +77,8 @@ MonoBehaviour:
   - {fileID: 1048251445313541030, guid: 579803471ef0548478dfa737ef9a7be5, type: 3}
   offset: 20
   damage: 2
+  deathEffect: {fileID: 4101703274402954799, guid: e1cfe3d5afef3494e9d8738a627ad8be,
+    type: 3}
 --- !u!61 &6756550315498294505
 BoxCollider2D:
   m_ObjectHideFlags: 0
